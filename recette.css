@@ -1,0 +1,179 @@
+body 
+                {
+                   background-color: #8BA1BB;
+                   font-family:Arial;
+                   margin: 0;
+                   padding: 30px;
+
+                 }
+
+            div.contenu
+                 {
+                     background-color:white;
+                     margin: 30px 10% 30px 10%;
+                     min-width: 350px;
+                     box-shadow:0px 0px 15px black;
+
+                 }
+            h1
+                 { 
+                  text-align: center;
+                 }
+            p.description
+                 {
+                  text-align: center;
+                  max-width: 400px;
+                  display:inline-block;
+                 }
+            div.description
+                {
+                  text-align: center;
+                }
+            .centre
+                {
+                  text-align: center;
+                  width: 100%;
+                  
+                  
+
+                }
+            p.categorie
+                 {
+                    text-align: center;
+                    background-color: black;
+                    color: aliceblue;
+                    display: inline-block;
+                    font-weight: bold;
+                    margin-left: 30px;
+                    padding:  5px 5px;
+                    margin-top: 0px;
+                    
+                 }
+            div.categorie
+                 {
+                   margin-bottom: -50px;
+                   margin-top: 60px;
+                   
+                 }
+                div.line
+                {
+                  background-color: black;
+                  width: 100%;
+                  height: 1px;
+                  margin-right: auto;
+                  margin-left: auto;
+                  display: block;
+                }
+            table.table
+            {   
+                background-color: #8BA1BBC0;
+                position:absolute ;
+                bottom:0 ;
+                width:100%; 
+                color: aliceblue;
+            }
+            div.info
+            {    position: relative;
+                 display: block;
+            }
+            
+            table.table td
+            {
+                text-align: center;
+                font-size: small;
+        
+            }
+            table.table th
+            {
+                text-align: center;
+                font-size: medium;
+            }
+            img.image
+            {
+                display: inline-block;
+                width: 100%;
+                object-fit: cover;
+                min-height: 200px;
+                background-color: darkolivegreen;
+            }
+            div.colonne
+            {
+              width: 45%;
+              text-align: center;
+          
+              
+            }
+            div.colonne h2
+            {
+              text-transform: uppercase;
+              font-size: 20px;
+              border-bottom:5px solid #8BA1BB;
+              padding-bottom: 13px;
+              margin-right: 10%;
+              
+            }
+
+            div.colonne h3
+            {
+              text-transform: uppercase;
+              font-size: 20px;
+              border-bottom:5px solid #8BA1BB;
+              padding-bottom: 9px;
+
+            }
+            div.colonne1
+            {
+              
+              display: inline-block;
+            }
+            div.colonne2
+            {
+              float:right;
+              
+            }
+
+           div.bord p
+            {
+              border:1px solid #8BA1BB;
+              margin-bottom:2px;
+              padding: 5px 0;
+              margin-top: 2px;
+              margin-bottom: 0;
+              display: block;
+              margin-right: 10%;
+              
+            }
+            table.table1 p.num
+            {
+                background-color: #8BA1BB;
+                text-align: center;
+                width: 25px;
+                height: 25px;
+                font-size: 14px;
+                font-weight: bold;
+                padding-top: 4px;
+                box-sizing: border-box;
+                border-radius: 50%;
+                margin-top: 0;
+                
+
+            }
+            table.table1 td
+            {
+              vertical-align: top;
+            }
+            table.table1 td.prepartation
+            {
+              font-size: small;
+              padding-left: 14px;
+              
+            }
+
+            table.table1 td
+            {
+              height: 30px;
+            }
+            *{
+              overflow: auto;
+            }
+          
